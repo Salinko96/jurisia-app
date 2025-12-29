@@ -1,0 +1,8 @@
+{
+  "name": "JurisIA - Assistant Juridique Intelligent",
+  "description": "Une plateforme d'assistance juridique complète offrant consultation IA, analyse de documents, gestion de dossiers, modèles d'actes et calculateur de délais.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
