@@ -1,0 +1,42 @@
+# JurisIA App
+
+JurisIA est une application web de gestion et d’assistance juridique assistée par intelligence artificielle.  
+Elle permet aux avocats, entreprises et particuliers de gérer des dossiers juridiques, stocker des documents de manière sécurisée et utiliser une IA pour analyser des documents juridiques.
+
+Le projet a pour objectif de montrer la mise en place d’une application moderne combinant frontend web, backend sécurisé et intelligence artificielle.
+
+---
+
+## 🚀 Fonctionnalités principales
+
+- Authentification sécurisée (inscription / connexion)
+- Gestion des rôles utilisateurs (avocat, entreprise, particulier, admin)
+- Création et gestion de dossiers juridiques
+- Upload et stockage sécurisé de documents
+- Analyse de documents juridiques via une IA
+- Historique et traçabilité des actions
+
+---
+
+## 🛠️ Technologies utilisées
+
+- Frontend : React + TypeScript (Vite)
+- Backend : Supabase (PostgreSQL, Auth, Storage)
+- IA : Google Gemini
+- Déploiement : Vercel
+
+---
+
+## 📦 Installation
+
+### Prérequis
+
+- Node.js (version LTS recommandée)
+- Un compte Supabase
+- Un compte GitHub (optionnel pour le déploiement)
+- Un compte Vercel (optionnel pour la mise en ligne)
+
+### Étapes d’installation
+
+1. Cloner le dépôt GitHub :
+
