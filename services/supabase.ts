@@ -1,9 +1,13 @@
-
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@^2.43.0';
 
-// Utilisation de l'URL spécifique fournie par l'utilisateur
-const supabaseUrl = 'https://waxfwynckfivwpkpbayt.supabase.co';
-// Note: La clé ANON doit être configurée dans les variables d'environnement pour la sécurité
-const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || 'YOUR_SUPABASE_ANON_KEY';
+// Configuration Supabase avec variables d'environnement Vite
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+// Validation des variables d'environnement
+if (!supabaseUrl || !supabaseAnonKey) {
+  console.error('Erreur critique: Variables d\'environnement Supabase manquantes');
+  console.error('Vérifiez: VITE_SUPABASE_URL et VITE_SUPABASE_ANON_KEY dans .env');
+}
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
