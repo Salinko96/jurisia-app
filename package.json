@@ -40,5 +40,10 @@
     "@testing-library/react": "^14.1.2",
     "@testing-library/jest-dom": "^6.1.5",
     "jsdom": "^23.0.1"
+      },
+  "overrides": {
+    "@testing-library/react": "^14.0.0"
+  }
+
   }
 }
